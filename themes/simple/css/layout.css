@@ -38,6 +38,28 @@ ul.todo-sets > li {
 	width: 220px;
 }
 
+ul.carousel {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 600px; height: 200px;
+	padding: 0; margin-left: 0;
+	border: 5px solid black;
+}
+
+ul.carousel > li {
+	list-style: none;
+	display: block;
+	position: absolute;
+	top: 0; left: 0; width: 600px; height: 200px;
+	padding: 0; margin: 0;
+}
+
+ul.carousel > li img {
+	border: none;
+}
+
+
 /* OOCSS Grid
 * https://github.com/stubbornella/oocss/wiki/grids
 */

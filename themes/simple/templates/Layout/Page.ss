@@ -8,13 +8,4 @@
 
 	$Form
 	$CommentsForm
-
-	<% if $TodoSets %>
-		<h1>Let's get these things done!</h1>
-		<ul class="todo-sets">
-			<% loop $TodoSets %>
-				<li>$TodoForm</li>
-			<% end_loop %>
-		</ul>
-	<% end_if %>
 </div>
