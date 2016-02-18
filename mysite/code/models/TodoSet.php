@@ -32,4 +32,9 @@ class TodoSet extends DataObject {
 
 		return $fields;
 	}
+
+	static function get_owned_by($member=null) {
+		if (!$member) $member = Member::currentUser();
+		return TodoSet::get()->filter('OwnerID', $member->ID);
+	}
 }

@@ -32,6 +32,12 @@
  * @author Your Name <email@silverstripe.com>
  * ------------------------------------------------------- */
 
+ul.todo-sets > li {
+	list-style: none;
+	float: left;
+	width: 220px;
+}
+
 /* OOCSS Grid
 * https://github.com/stubbornella/oocss/wiki/grids
 */
